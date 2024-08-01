@@ -1,15 +1,19 @@
 '로 구분)
-아래는 프로그램의 기본 구조를 보여주는 코드입니다.
+이 문제를 해결하기 위한 아래의 C++ 코드 템플릿을 시작점으로 사용하세요.
 ```cpp
 #include <iostream>
 using namespace std;
+
 int factorial(int n) {
-    // 여기에 팩토리얼을 계산하는 코드를 작성하세요.
+    // 이곳에 필요한 코드를 작성하세요
 }
+
 int main() {
     int n;
+    cout << "Enter a number: ";
     cin >> n;
-    cout << factorial(n) << endl;
+    cout << "Factorial of " << n << " is " << factorial(n) << endl;
+
     return 0;
 }
 ```
