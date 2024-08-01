@@ -1,11 +1,15 @@
+**기본 코드:**
+
+```cpp
 #include <iostream>
-
-int solution() {
-    // 여기에 코드를 작성하세요
-    return 0;
+using namespace std;
+int factorial(int n) {
+    // 여기에 코드를 구현하세요.
 }
-
 int main() {
-    std::cout << solution() << std::endl;
+    int n;
+    cin >> n;
+    cout << factorial(n) << endl;
     return 0;
 }
+```
