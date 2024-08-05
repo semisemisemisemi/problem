@@ -1,8 +1,24 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/u0MMcjni)
 # 과제 설명
 
 ## 문제 설명
-이곳에 문제 설명이 자동으로 추가됩니다.
+1. 자연어 문제 설명
+한수는 구조체(struct)에게 모든 이름을 부여할 수 있다는 사실을 최근에 알게 되었습니다. 그는 이름을 가진 구조체가 자신의 프로그램에서 모든 변수를 캡슐화하는 데 얼마나 효과적인지 알게 되었습니다. 그는 다음과 같은 간단한 프로그램을 작성해 보았습니다:
+
+```cpp
+struct Point2D {
+    int x;
+    int y;
+};
+
+int main() {
+    Point2D p;
+    p.x = 10;
+    p.y = 20;
+    cout << "Point p is at (" << p.x << ", " << p.y << ")";
+    return 0;
+}
+```
+그러나 지금 그는 이 프로그램을 직접 작성하는 것이 아니라 생성기를 작성하고 싶어합니다. 그 생성기는 주어진 숫자 N에 대해 N차원의 "PointND"라는 이름의 구조체를 생성하게 됩니다. "PointND"에서 'D'는 차원의 수를 나타냅니다.
 
 ## 제출 방법
 1. `src/solution.cpp` 파일을 수정하여 문제를 해결하세요.
