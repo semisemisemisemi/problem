@@ -1,11 +1,4 @@
-#include <iostream>
+'로 구분)
+주어진 배열의 각 원소를 제곱하여 오름차순으로 정렬된 배열을 반환하는 프로그램을 작성하시오. 
 
-int solution() {
-    // 여기에 코드를 작성하세요
-    return 0;
-}
-
-int main() {
-    std::cout << solution() << std::endl;
-    return 0;
-}
+2. 문제 코드(끝에 '
