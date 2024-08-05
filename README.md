@@ -1,8 +1,8 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/u0MMcjni)
 # 과제 설명
 
 ## 문제 설명
-이곳에 문제 설명이 자동으로 추가됩니다.
+문제 설명:
+큰 숫자를 직접 다루는 것이 어려울 때, 문자열로 이를 처리하는 방법이 있다. 이번에는 두 개의 자연수가 담긴 문자열이 주어진다고 가정하자. 두 문자열이 나타내는 숫자를 더한 결과를 출력하는 프로그램을 작성하시오. 단, 출력 결과는 '0'으로 시작하지 않아야 한다.
 
 ## 제출 방법
 1. `src/solution.cpp` 파일을 수정하여 문제를 해결하세요.
