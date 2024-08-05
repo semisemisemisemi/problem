@@ -1,8 +1,30 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/u0MMcjni)
 # 과제 설명
 
 ## 문제 설명
-이곳에 문제 설명이 자동으로 추가됩니다.
+1. 자연어 문제 설명
+용모는 오늘 객체지향프로그래밍 1 시간에 배열과 함수에 대해 배웠다. 함수에서 배열을 인자로 받아서 그 배열의 원소를 변경하면, 원래 배열의 원소도 변경된다는 사실을 알게 되었다. 
+
+C++에서 배열을 함수의 인자로 넘겨주는 방법은 배열의 이름을 넘겨주는 것이다. 이때 배열의 이름은 배열의 첫 번째 원소의 메모리 주소를 의미한다. 예를 들어, int형 배열 arr에 대해 이를 변경하는 함수 changeArr를 다음과 같이 선언하고 사용할 수 있다.
+
+```cpp
+void changeArr(int* arr, int size) {
+    for(int i=0; i<size; i++) {
+        arr[i] += 1;
+    }
+}
+
+int main() {
+    int arr[5] = {1, 2, 3, 4, 5};
+    changeArr(arr, 5);
+
+    for(int i=0; i<5; i++)
+        cout << arr[i] << " ";
+    cout << endl;
+    return 0;
+}
+```
+
+체력을 가지고 있는 캐릭터가 N개 있고, 각 캐릭터의 체력은 배열 health[i]를 통해 접근할 수 있다. 용모는 적 캐릭터에게 공격을 받아 모든 캐릭터의 체력이 1만큼 줄어드는 함수를 구현해야 한다. 이때 함수는 1. 별도로 반환 값을 가지지 않는 void 형식이며, 2. 캐릭터 체력 배열과 배열의 크기를 인자로 받아야 하고, 3. 모든 캐릭터의 체력을 1만큼 감소시켜야 한다.
 
 ## 제출 방법
 1. `src/solution.cpp` 파일을 수정하여 문제를 해결하세요.
