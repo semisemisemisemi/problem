@@ -1,8 +1,8 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/u0MMcjni)
 # 과제 설명
 
 ## 문제 설명
-이곳에 문제 설명이 자동으로 추가됩니다.
+1. 자연어 문제 설명
+회문이란 앞에서부터 읽으나 뒤에서부터 읽으나 동일한 단어 또는 문장을 의미한다. 거꾸로 읽어도 똑같다는 얘기다. 거꾸로 읽어도 같은 알파벳 대/소문자로 이루어진 단어가 주어진다면, 그 단어가 회문인지 아닌지 확인하는 프로그램을 작성하시오. 단, 대문자와 소문자는 구분하며 공백도 유효한 문자로 간주한다.
 
 ## 제출 방법
 1. `src/solution.cpp` 파일을 수정하여 문제를 해결하세요.
